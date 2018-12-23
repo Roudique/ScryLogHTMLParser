@@ -2,14 +2,17 @@ import XCTest
 @testable import ScryLogHTMLParser
 
 final class ScryLogHTMLParserTests: XCTestCase {
-    func testExample() {
+    func testEmptyData() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(ScryLogHTMLParser().text, "Hello, World!")
+        let data = Data()
+        let tables = ScryLogHTMLParser.parse(data: data)
+        
+        XCTAssert(tables.count == 0, "There should be no tables for empty data object.")
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testEmptyData),
     ]
 }

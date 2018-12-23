@@ -11,25 +11,14 @@ import Kanna
 
 
 class ScryLogHTMLParser {
-    static func parse(with path: URL) {
-        let dataTask = URLSession.shared.dataTask(with: path) { data, response, error in
-            guard let data = data, let htmlString = String(data: data, encoding: .utf8) else { return }
-            guard let html = try? HTML(html: htmlString, encoding: .utf8) else { return }
-            
-            self.parse(html: html)
-        }
+    public static func parse(data: Data) -> [Table] {
+        var tables = [Table]()
+        guard let html = try? HTML(html: data, encoding: .utf8) else { return tables }
         
-        dataTask.resume()
-    }
-    
-    
-    private static func parse(html : HTMLDocument) -> [Table] {
         let title = html.xpath("//meta[@property='og:title']").first?["content"]
         if let title = title {
             print("\nStarted parsing \(title)")
         }
-        
-        var tables = [Table]()
         
         if let tablesNodeSet = html.xpathsSet(symbol: "table") {
             tablesNodeSet.forEach {

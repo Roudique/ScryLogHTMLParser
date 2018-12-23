@@ -21,8 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		840EA45321D02E6100E9D1DA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45221D02E6100E9D1DA /* Table.swift */; };
-		840EA45421D02E6100E9D1DA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45221D02E6100E9D1DA /* Table.swift */; };
+		840EA45621D02EFE00E9D1DA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45521D02EFE00E9D1DA /* Table.swift */; };
+		840EA45721D02EFE00E9D1DA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45521D02EFE00E9D1DA /* Table.swift */; };
+		840EA45921D02F1C00E9D1DA /* ScryLogHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45821D02F1C00E9D1DA /* ScryLogHTMLParser.swift */; };
+		840EA45A21D02F1C00E9D1DA /* ScryLogHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45821D02F1C00E9D1DA /* ScryLogHTMLParser.swift */; };
+		840EA45C21D02F2C00E9D1DA /* ScryLogHTMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45B21D02F2C00E9D1DA /* ScryLogHTMLParserTests.swift */; };
+		840EA45E21D02F3900E9D1DA /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EA45D21D02F3900E9D1DA /* XCTestManifests.swift */; };
 		OBJ_33 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CSS.swift */; };
 		OBJ_34 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Deprecated.swift */; };
 		OBJ_35 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Kanna.swift */; };
@@ -30,11 +34,8 @@
 		OBJ_37 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* libxmlHTMLNode.swift */; };
 		OBJ_38 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* libxmlParserOption.swift */; };
 		OBJ_45 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Package.swift */; };
-		OBJ_51 /* ScryLogHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ScryLogHTMLParser.swift */; };
 		OBJ_53 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Kanna::Kanna::Product" /* Kanna.framework */; };
 		OBJ_60 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_71 /* ScryLogHTMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ScryLogHTMLParserTests.swift */; };
-		OBJ_72 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_74 /* ScryLogHTMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ScryLogHTMLParser::ScryLogHTMLParser::Product" /* ScryLogHTMLParser.framework */; };
 		OBJ_75 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Kanna::Kanna::Product" /* Kanna.framework */; };
 /* End PBXBuildFile section */
@@ -71,10 +72,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		840EA45221D02E6100E9D1DA /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		840EA45521D02EFE00E9D1DA /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Table.swift; path = Sources/Model/Table.swift; sourceTree = "<group>"; };
+		840EA45821D02F1C00E9D1DA /* ScryLogHTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScryLogHTMLParser.swift; path = Sources/ScryLogHTMLParser.swift; sourceTree = "<group>"; };
+		840EA45B21D02F2C00E9D1DA /* ScryLogHTMLParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScryLogHTMLParserTests.swift; path = Tests/ScryLogHTMLParserTests.swift; sourceTree = "<group>"; };
+		840EA45D21D02F3900E9D1DA /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCTestManifests.swift; path = Tests/XCTestManifests.swift; sourceTree = "<group>"; };
 		"Kanna::Kanna::Product" /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_12 /* ScryLogHTMLParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryLogHTMLParserTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/roudique/Developer/ScryLog/ScryLogHTMLParser/.build/checkouts/Kanna.git--4918964062932552242/Package.swift"; sourceTree = "<group>"; };
 		OBJ_18 /* CSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
 		OBJ_19 /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
@@ -83,7 +85,6 @@
 		OBJ_22 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlHTMLNode.swift; sourceTree = "<group>"; };
 		OBJ_23 /* libxmlParserOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlParserOption.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* ScryLogHTMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryLogHTMLParser.swift; sourceTree = "<group>"; };
 		"ScryLogHTMLParser::ScryLogHTMLParser::Product" /* ScryLogHTMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScryLogHTMLParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ScryLogHTMLParser::ScryLogHTMLParserTests::Product" /* ScryLogHTMLParserTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScryLogHTMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +120,7 @@
 		840EA45121D02E4F00E9D1DA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				840EA45221D02E6100E9D1DA /* Table.swift */,
+				840EA45521D02EFE00E9D1DA /* Table.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -127,8 +128,8 @@
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* ScryLogHTMLParserTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
+				840EA45B21D02F2C00E9D1DA /* ScryLogHTMLParserTests.swift */,
+				840EA45D21D02F3900E9D1DA /* XCTestManifests.swift */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -174,7 +175,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -183,14 +184,13 @@
 				OBJ_14 /* Dependencies */,
 				OBJ_24 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				840EA45121D02E4F00E9D1DA /* Model */,
-				OBJ_9 /* ScryLogHTMLParser.swift */,
+				840EA45821D02F1C00E9D1DA /* ScryLogHTMLParser.swift */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -292,7 +292,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,8 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				840EA45321D02E6100E9D1DA /* Table.swift in Sources */,
-				OBJ_51 /* ScryLogHTMLParser.swift in Sources */,
+				840EA45621D02EFE00E9D1DA /* Table.swift in Sources */,
+				840EA45921D02F1C00E9D1DA /* ScryLogHTMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				840EA45421D02E6100E9D1DA /* Table.swift in Sources */,
-				OBJ_71 /* ScryLogHTMLParserTests.swift in Sources */,
-				OBJ_72 /* XCTestManifests.swift in Sources */,
+				840EA45721D02EFE00E9D1DA /* Table.swift in Sources */,
+				840EA45E21D02F3900E9D1DA /* XCTestManifests.swift in Sources */,
+				840EA45C21D02F2C00E9D1DA /* ScryLogHTMLParserTests.swift in Sources */,
+				840EA45A21D02F1C00E9D1DA /* ScryLogHTMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
