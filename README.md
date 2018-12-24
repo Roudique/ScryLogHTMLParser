@@ -1,3 +1,5 @@
-# ScryLogHTMLParser
+# ScryLog HTML Parser
 
-A description of this package.
+Utility package for ScryLog.
+
+![Travis CI](https://travis-ci.org/Roudique/ScryLogHTMLParser.svg?branch=master)
