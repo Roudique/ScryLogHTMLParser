@@ -285,6 +285,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"Kanna::Kanna" = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ScryLogHTMLParser" */;
 			compatibilityVersion = "Xcode 3.2";
