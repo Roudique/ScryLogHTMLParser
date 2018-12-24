@@ -9,7 +9,6 @@
 import Foundation
 import Kanna
 
-
 class ScryLogHTMLParser {
     public static func parse(data: Data) -> [Table] {
         var tables = [Table]()
@@ -82,7 +81,6 @@ class ScryLogHTMLParser {
     }
 }
 
-
 extension Kanna.Searchable {
     func xpathsSet(symbol: String) -> [Kanna.XMLElement]? {
         let xpathObject = self.css(symbol)
@@ -108,4 +106,3 @@ extension Kanna.Searchable {
         return xpaths.first!
     }
 }
-

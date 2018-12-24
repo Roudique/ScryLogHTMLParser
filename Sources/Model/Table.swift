@@ -8,9 +8,7 @@
 
 import Foundation
 
-
 typealias Row = [String]
-
 
 class Table {
     var title: String
