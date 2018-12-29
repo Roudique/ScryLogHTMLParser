@@ -9,7 +9,7 @@
 import Foundation
 import Kanna
 
-class ScryLogHTMLParser {
+open class ScryLogHTMLParser {
     public static func parse(data: Data) -> [Table] {
         var tables = [Table]()
         guard let html = try? HTML(html: data, encoding: .utf8) else { return tables }

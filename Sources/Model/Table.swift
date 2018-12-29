@@ -10,7 +10,7 @@ import Foundation
 
 typealias Row = [String]
 
-class Table {
+open class Table {
     var title: String
     let rows: [Row]
     
