@@ -8,11 +8,11 @@
 
 import Foundation
 
-typealias Row = [String]
+public typealias Row = [String]
 
 open class Table {
-    var title: String
-    let rows: [Row]
+    public var title: String
+    public let rows: [Row]
     
     init(title: String, rows: [Row]) {
         self.title = title
