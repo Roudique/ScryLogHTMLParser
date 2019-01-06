@@ -14,7 +14,7 @@ open class Table {
     public var title: String
     public let rows: [Row]
     
-    init(title: String, rows: [Row]) {
+    public init(title: String, rows: [Row]) {
         self.title = title
         self.rows = rows
     }
